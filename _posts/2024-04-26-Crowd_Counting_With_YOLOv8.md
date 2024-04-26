@@ -66,7 +66,7 @@ pip install labelimg -i https://pypi.tuna.tsinghua.edu.cn/simple
 #### 数据集配置
 本人的小小轻薄本支撑不住大模型的狠狠♂使用，所以只好寻求服务器大大的帮助QAQ  
   
-我用的是OpenBayes，它的界面很美观，功能很完备。  
+我用的是OpenBayes`https://openbayes.com`，它的界面很美观，功能很完备。  
 而且它便宜。  
 就是这样，所以我选择了这个平台\~  
 在数据仓库-数据集模块，选择“创建新数据集”。上传过的可以在数据集详情点击“创建空版本”。  
