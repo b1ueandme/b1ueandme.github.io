@@ -37,12 +37,29 @@ Anaconda内安装opencv-python、opencv-contrib-python
 
 #### 准备你的数据集
 勤快一点可以自己出去拍些照片\~标注工具用LabelImg，按快捷键w新建标注框，完成后选择Yolo格式导出即可\~  
+  
+but这里有个大大大坑：如果你的python版本不对的话，LabelImg新建标注框是会闪退的。  
+在Anaconda新建一个虚拟环境，安装合适的python版本即可：
+点击Anaconda Prompt，输入如下命令，新建一个叫LabelImg的虚拟环境：
+```
+conda create-n LabelImg python=3.9
+```
+然后激活环境
+```
+conda activate LabelImg
+```
+```
+pip install labelimg -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+之后打开虚拟环境输入LabelImg回车就可以正常使用了\~不过我在使用的时候发现，不打开命令行界面，直接打开LabelImg也是可以正常用的。  
+  
 注意标注文件（txt格式）需要和对应的图片名称一致  
+  
 用现成的标注好的数据集也可以，比如众所周知的COCO数据集等等。  
 
 #### 分割数据集
 接下来要分割数据集，把一坨巨大的数据集按比例随机分成train、test、valid三个部分~相关python脚本网上都有哈，很容易就能找到，也很容易跑通  
-分割完，你就得到了一份新鲜的可以用于训练的数据集  
+分割完，你就得到了一份新鲜优美的可以用于训练的数据集  
 
 ### 模型训练
 
