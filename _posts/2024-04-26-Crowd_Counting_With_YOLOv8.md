@@ -44,7 +44,7 @@ but这里有个大大大坑：如果你的python版本不对的话，LabelImg新
 ```
 conda create-n LabelImg python=3.9
 ```
-然后激活环境
+然后激活环境，安装LabelImg
 ```
 conda activate LabelImg
 ```
