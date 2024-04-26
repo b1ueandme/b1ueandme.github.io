@@ -115,8 +115,9 @@ names:
 #### 加载模型
 训练完成后，终端上的信息会告诉你，效果最好的那一代的模型文件best.pt存在哪个位置。  
 把它下载下来，存在你的PyCharm项目的文件夹下，就可以在你的项目里使用它了。  
-  
-加载模型的语句如下：
+
+ultralytics的官方文档讲得非常详细：`https://www.ultralytics.com/zh`  
+在其中可以得知，加载模型的语句如下：
 
 ```python
 model = YOLO('best.pt')
