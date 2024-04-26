@@ -14,7 +14,7 @@ ps：不用自己费劲巴拉选题的感觉真好……
 ### YOLO系列简介
 
 这部分内容有点太多了，请自助^_^  
-找到一篇很NB的综述***A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS***  
+找到一篇很NB的综述：***A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS***  
 `https://arxiv.org/abs/2304.00501`
 
 ### 环境准备
