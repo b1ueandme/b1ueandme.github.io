@@ -170,5 +170,5 @@ out_count = counter.out_count
 ```
 ### 最终效果
 最终的结果是酱婶滴\~
-![YOLOv8result](https://raw.githubusercontent.com/b1ueandme/b1ueandme.github.io/blob/4ba8f43051cdaccc1d135eb257386ea7785cc476/images/2024-04-26-Crowd_Counting_With_YOLOv8/YOLOv8result.png)
-< img src="https://s2.loli.net/2024/04/26/zJrWbvPE8xleBi3.png" >
+![YOLOv8result](https://sm.ms/image/zJrWbvPE8xleBi3)
+
