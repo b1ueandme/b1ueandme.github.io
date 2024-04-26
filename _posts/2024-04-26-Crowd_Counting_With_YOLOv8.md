@@ -170,5 +170,5 @@ out_count = counter.out_count
 ```
 ### 最终效果
 最终的结果是酱婶滴\~
-![YOLOv8result](https://sm.ms/image/zJrWbvPE8xleBi3)
+![YOLOv8result](https://s2.loli.net/2024/04/26/zJrWbvPE8xleBi3.png)
 
