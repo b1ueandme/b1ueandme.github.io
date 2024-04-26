@@ -13,7 +13,9 @@ ps：不用自己费劲巴拉选题的感觉真好……
 
 ### YOLO系列简介
 
-
+这部分内容有点太多了，请自助^_^  
+找到一篇很NB的综述***A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS***  
+`https://arxiv.org/abs/2304.00501`
 
 ### 环境准备
 
@@ -148,3 +150,5 @@ in_count = counter.in_count
 out_count = counter.out_count
 ```
 ### 最终效果
+最终的结果是酱婶滴~
+![YOLOv8result](https://github.com/b1ueandme/b1ueandme.github.io/blob/4ba8f43051cdaccc1d135eb257386ea7785cc476/images/2024-04-26-Crowd_Counting_With_YOLOv8/YOLOv8result.png)
