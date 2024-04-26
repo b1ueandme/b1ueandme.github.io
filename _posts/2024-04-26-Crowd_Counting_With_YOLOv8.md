@@ -20,9 +20,9 @@ ps：不用自己费劲巴拉选题的感觉真好……
 ### 环境准备
 
 安装Anaconda，打开图形用户界面的PyCharm，新建项目。  
-版本参考：我的Anaconda内的PyCharm版本-2023.3。IDE版本不同的话，设置里的布局会有点点不一样~  
+版本参考：我的Anaconda内的PyCharm版本-2023.3。IDE版本不同的话，设置里的布局会有点点不一样\~  
 点击设置-项目-Python解释器-添加解释器-添加本地解释器-系统解释器-读取本地文件找到..\anaconda3\pythonw.exe-一路确定  
-恭喜你，你现在可以在PyCharm里使用Anaconda环境里已经装好的所有依赖了~  
+恭喜你，你现在可以在PyCharm里使用Anaconda环境里已经装好的所有依赖了\~  
   
 接下来安装一些要用到的库。PyCharm中打开底部的终端进行安装  
 python库安装命令：pip install XXX  
@@ -36,13 +36,13 @@ Anaconda内安装opencv-python、opencv-contrib-python
 ### 数据集准备
 
 #### 准备你的数据集
-勤快一点可以自己出去拍些照片~标注工具用LabelImg，按快捷键w新建标注框，完成后选择Yolo格式导出即可~  
+勤快一点可以自己出去拍些照片\~标注工具用LabelImg，按快捷键w新建标注框，完成后选择Yolo格式导出即可\~  
 注意标注文件（txt格式）需要和对应的图片名称一致  
 用现成的标注好的数据集也可以，比如众所周知的COCO数据集等等。  
 
 #### 分割数据集
 接下来要分割数据集，把一坨巨大的数据集按比例随机分成train、test、valid三个部分~相关python脚本网上都有哈，很容易就能找到，也很容易跑通  
-分割完，你就得到了一份新鲜的可以用于训练的数据集~  
+分割完，你就得到了一份新鲜的可以用于训练的数据集  
 
 ### 模型训练
 
@@ -50,12 +50,12 @@ Anaconda内安装opencv-python、opencv-contrib-python
 本人的小小轻薄本支撑不住大模型的狠狠♂使用，所以只好寻求服务器大大的帮助QAQ 
 我用的是OpenBayes，它的界面很美观，功能很完备。  
 而且它便宜。  
-就是这样，所以我选择了这个平台~  
+就是这样，所以我选择了这个平台\~  
 在数据仓库-数据集模块，选择“创建新数据集”。上传过的可以在数据集详情点击“创建空版本”。  
-点击“上传至当前目录”，可以直接把数据集压缩上传到网站，网站会帮你自动解压到云端数据集~非常方便~  
+点击“上传至当前目录”，可以直接把数据集压缩上传到网站，网站会帮你自动解压到云端数据集\~非常方便\~  
 
 #### 算力容器配置
-创建新容器，取一个炫酷的名字，再绑定刚刚配置好的数据集。算力选RTX4090，就非常够用了（还便宜，性价比之选）。审核然后执行，等待它加载完成，就ok了~
+创建新容器，取一个炫酷的名字，再绑定刚刚配置好的数据集。算力选RTX4090，就非常够用了（还便宜，性价比之选）。审核然后执行，等待它加载完成，就ok了\~
 
 #### YOLOv8配置
 打开终端，下载YOLOv8模型。
@@ -68,7 +68,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 这里有一个小坑，OpenBayes里面没有requirement.txt，你要自己导入一个。如果你找到的requirement.txt内容里有网址，要删掉。  
 这是因为这个requirement.txt是从PyCharm导出的，那些网址是PyCharm的内部源。  
-还有一个小坑，imageio要求pillow版本在[ 8.3.2，10.1.0 )。报错了需要降低pillow版本~  
+还有一个小坑，imageio要求pillow版本在[ 8.3.2，10.1.0 )。报错了需要降低pillow版本\~  
 ```
 pip install pillow==8.3.2
 ```
@@ -88,9 +88,9 @@ names:
     0: 【你在LabelImg设置的标签名】
     1: ……
 ```
-然后在home文件夹下创建train.py文件，内容在ultralytics的文档里有~  
+然后在home文件夹下创建train.py文件，内容在ultralytics的文档里有\~  
   
-然后在终端运行train.py，就会开始训练了，耐心等待一下~
+然后在终端运行train.py，就会开始训练了，耐心等待一下\~
 
 ### 模型部署
 
@@ -150,5 +150,5 @@ in_count = counter.in_count
 out_count = counter.out_count
 ```
 ### 最终效果
-最终的结果是酱婶滴~
+最终的结果是酱婶滴\~
 ![YOLOv8result](https://github.com/b1ueandme/b1ueandme.github.io/blob/4ba8f43051cdaccc1d135eb257386ea7785cc476/images/2024-04-26-Crowd_Counting_With_YOLOv8/YOLOv8result.png)
